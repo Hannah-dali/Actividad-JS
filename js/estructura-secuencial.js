@@ -1,0 +1,7 @@
+let valor1;
+            valor1 = prompt('Ingrese el valor del lado de un cuadrado:');
+            let multiplicacion = valor1 * 4
+            document.write("El lado del cuadrado es: " + valor1);
+            document.write('<br>');
+            document.write("El perímetro del cuadrado es: " + multiplicacion);
+    

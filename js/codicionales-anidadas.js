@@ -1,0 +1,13 @@
+<button onclick="menorDiez()">Menor a diez</button>
+        function menorDiez() {
+            let num1 = parseInt(prompt("Ingrese el primer numero"));
+            let num2 = parseInt(prompt("Ingrese el segunda numero"));
+            let num3 = parseInt(prompt("Ingrese el tercer numero"));
+            if (num1 < 10) {
+                if (num2 < 10) {
+                    if (num3 < 10) {
+                        document.write("Todos los numeros son menores a diez");
+                    } 
+                }
+            }
+        }
