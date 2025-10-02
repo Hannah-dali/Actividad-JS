@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto PC</title>
+</head>
+<body>
+    <form>
+        <select id="procesador">
+            <option value="400">Intel I3 ($400)</option>
+            <option value="600">Intel I5 ($600)</option>
+            <option value="800">Intel I7 ($800)</option>
+        </select>
+        
+        <select id="monitor">
+            <option value="250">Monitor 20" ($250)</option>
+            <option value="350">Monitor 22" ($350)</option>
+            <option value="550">Monitor 26" ($550)</option>
+        </select>
+        
+        <select id="disco">
+            <option value="300">500 GB ($300)</option>
+            <option value="440">1 TB ($440)</option>
+            <option value="500">3 TB ($500)</option>
+        </select>
+        
+        <input type="button" value="Calcular" onclick="calcularPresupuesto()">
+        <input type="text" id="presupuesto" readonly>
+    </form>
+    <script src="js/select.js"></script>
+</body>
+</html>
